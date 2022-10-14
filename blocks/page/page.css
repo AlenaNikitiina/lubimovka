@@ -1,0 +1,6 @@
+.page {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #E5E5E5;
+}
