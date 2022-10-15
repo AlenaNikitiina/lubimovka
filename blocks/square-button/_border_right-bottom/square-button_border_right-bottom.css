@@ -1,0 +1,14 @@
+.square-button_border_right-bottom {
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
+  padding-left: 10px;
+  grid-area: button;
+}
+
+.square-button_border_right-bottom::before {
+  transform-origin: right;
+}
+
+.square-button_border_right-bottom:hover:before {
+  transform-origin: right;
+}

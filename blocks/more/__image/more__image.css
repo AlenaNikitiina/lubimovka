@@ -1,0 +1,7 @@
+.more__image {
+  grid-area: image;
+  background: url(../../../media/images/theatre.jpg);
+  max-width: 720px;
+  width: 100%;
+  height: 445px;
+}
