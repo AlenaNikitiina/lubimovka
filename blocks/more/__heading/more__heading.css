@@ -1,6 +1,6 @@
 .more__heading {
   max-width: 450px;
-  font-family: 'NeueMachina';
+  font-family: 'Neue Machina', 'Aria', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -8,5 +8,5 @@
   letter-spacing: -0.01em;
   grid-area: heading;
   margin-block: 0;
-  padding-bottom: 65px;
+  padding: 14px 0 73px;
 }
