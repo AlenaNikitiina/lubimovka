@@ -1,0 +1,26 @@
+.menu__item {
+    display: flex;
+    margin-left: 24px;
+}
+
+.menu__item::before {
+    content: url('../../../media/images/Ellipse46.svg');
+    height: 24px;
+    width: 10px;
+    opacity: 0;
+    margin-top: -2px;
+}
+.menu__item::after {
+    content: url('../../../media/images/Ellipse56.svg');
+    height: 24px;
+    width: 10px;
+    opacity: 0;
+    margin-top: -2px;
+}
+
+.menu__item:hover::after {
+    opacity: 1;
+}
+.menu__item:hover::before {
+    opacity: 1;
+}
