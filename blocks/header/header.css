@@ -1,0 +1,11 @@
+.header {
+    box-sizing: border-box;
+    width: 1440px;
+    display: flex;
+    border-bottom: 1px solid #242424;
+    font-family: 'Formular', 'Aria', sans-serif;
+    letter-spacing: 0.5px; 
+}
+
+
+

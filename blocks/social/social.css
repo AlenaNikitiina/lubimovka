@@ -1,0 +1,9 @@
+.social {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    line-height: 1.125;
+    padding: 11px 26px 21px 24px;
+    margin: 10px 0 0;
+    border-right: 1px solid #242424;
+}

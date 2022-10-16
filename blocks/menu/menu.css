@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.375;
+    list-style: none;
+    padding: 12px 29px 17px 0;
+    margin: 10px 0 0;
+    border-right: 1px solid #242424;
+    
+}

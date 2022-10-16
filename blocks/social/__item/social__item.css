@@ -1,0 +1,9 @@
+.social__item {
+    margin-left: 16px;
+
+}
+
+.social__item:first-of-type {
+    margin-left: 0;
+}
+
