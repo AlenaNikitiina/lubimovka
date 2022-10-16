@@ -6,4 +6,6 @@
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__icon/feedback__icon.css);
+@import url(../blocks/feedback/__underline/feedback__underline.css);
 

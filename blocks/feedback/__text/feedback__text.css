@@ -1,7 +1,12 @@
 .feedback__text {
   max-width: 468px;
-  margin: 33px 0px;
+  margin: 33px auto 33px 58px;
+  padding: 0;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
+}
+
+.feedback__text:last-of-type {
+  margin: 0px auto 0px 58px;
 }
