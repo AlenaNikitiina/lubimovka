@@ -1,0 +1,6 @@
+.one-video {
+  max-width: 716px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 98px;
+}

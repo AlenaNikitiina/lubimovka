@@ -1,0 +1,11 @@
+.one-video__text {
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss01' on;
+  margin-block: 0;
+  padding-top: 55px;
+}
