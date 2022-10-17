@@ -1,0 +1,44 @@
+.square-button {
+  width: fit-content;
+  height: 31px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  border: none;
+  font-family: 'FormularLight';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  background: #E5E5E5;
+  color: #242424;
+  z-index: 2;
+  cursor: pointer;
+  transition: color .4s;
+}
+
+.square-button:hover {
+  color: white;
+}
+
+.square-button::before{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  content: '';
+  transform: scaleX(0);
+  
+  transition: transform .4s, background .4s;
+  z-index: -1;
+}
+
+.square-button:hover::before {
+  transform: scaleX(1);
+  
+  background: #242424;
+}
+
+.square-button:active::before {
+  transform: scaleX(1.1) scaleY(1.2);
+}

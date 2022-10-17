@@ -1,0 +1,10 @@
+.menu__button {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 18px 20px 18px 17px;
+    height: 25px;
+}

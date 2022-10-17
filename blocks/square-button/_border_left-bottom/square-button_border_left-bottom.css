@@ -1,0 +1,13 @@
+.square-button_border_left-bottom {
+  border-bottom: 1px solid #242424;
+  border-left: 1px solid #242424;
+  padding-right: 10px;
+}
+
+.square-button_border_left-bottom::before {
+  transform-origin: left;
+}
+
+.square-button_border_left-bottom:hover:before {
+  transform-origin: left;
+} 
