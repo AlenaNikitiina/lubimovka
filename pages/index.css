@@ -27,3 +27,22 @@
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
+
+@import url(../blocks/performance/__wrapper/performance__wrapper.css);
+@import url(../blocks/performance/__wrapper/_block-one/performance__wrapper_block-one.css);
+@import url(../blocks/performance/__title/performance__title.css);
+@import url(../blocks/performance/__title/_block-one/performance__title_block-one.css);
+@import url(../blocks/performance/__time/performance__time.css);
+@import url(../blocks/performance/__link-lists/performance__link-lists.css);
+@import url(../blocks/performance/__link-list/performance__link-list.css);
+@import url(../blocks/performance/__link/performance__link.css);
+@import url(../blocks/performance/__arrow/performance__arrow.css);
+@import url(../blocks/performance/__image/performance__image.css);
+@import url(../blocks/performance/__description/performance__description.css);
+@import url(../blocks/performance/__data/performance__data.css);
+@import url(../blocks/performance/__creators-lists/performance__creators-lists.css);
+@import url(../blocks/performance/__creators-list/performance__creators-list.css);
+@import url(../blocks/performance/__containers/performance__containers.css);
+@import url(../blocks/performance/__container/performance__container.css);
+@import url(../blocks/performance/__container/_block-two/performance__container_block-two.css);
+@import url(../blocks/performance/__afisha-title/performance__afisha-title.css);

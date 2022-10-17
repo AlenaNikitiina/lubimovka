@@ -1,0 +1,5 @@
+.performance__link-lists {
+  grid-area: link;
+  list-style: none;
+  padding: 0;
+}

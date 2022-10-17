@@ -1,0 +1,6 @@
+.performance__image {
+  grid-area: img;
+  width: 120px;
+  height: 162px;
+  object-fit: cover;
+}

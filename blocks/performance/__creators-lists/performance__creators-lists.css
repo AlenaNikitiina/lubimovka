@@ -1,0 +1,5 @@
+.performance__creators-lists {
+  grid-area: creators;
+  padding-left: 30px;
+  list-style: none;
+}

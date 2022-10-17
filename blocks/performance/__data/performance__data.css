@@ -1,0 +1,8 @@
+.performance__data {
+  grid-area: data;
+  font-family: Formular;
+  font-weight: 300px;
+  font-size: 20px;
+  line-height: 1.4em;
+  margin: 0;
+}
