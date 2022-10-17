@@ -1,0 +1,10 @@
+.photo-galary__title {
+  padding: 0;
+  margin: 145px auto 42px auto;
+  max-width: 568px;
+  max-height: 80px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  /*letter-spacing: ;*/
+}
