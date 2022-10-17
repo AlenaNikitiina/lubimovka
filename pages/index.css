@@ -25,13 +25,14 @@
 @import url(../blocks/square-button/_border_left-bottom/square-button_border_left-bottom.css);
 @import url(../blocks/square-button/_place_more/square-button_place_more.css);
 
-@import url(../blocks/one-video/one-video.css);
-@import url(../blocks/one-video/__text/one-video__text.css);
-
 @import url(../blocks/video/video.css);
-@import url(../blocks/video/_one-item/video_one-item.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__items/video__items.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__text/video__text.css);
 
 @import url(../blocks/content-heading/content-heading.css);
+@import url(../blocks/content-heading/_padding_bottom/content-heading_padding_bottom.css);
 
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__title/feedback__title.css);

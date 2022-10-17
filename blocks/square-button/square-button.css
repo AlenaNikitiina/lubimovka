@@ -39,4 +39,5 @@
 
 .square-button:active::before {
   transform: scaleX(1.1) scaleY(1.2);
+  /* transform-origin: right; */
 }

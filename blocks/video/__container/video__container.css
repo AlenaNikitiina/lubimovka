@@ -1,0 +1,8 @@
+.video__container {
+  display: flex;
+  gap: 59px;
+  align-self: center;
+  padding: 45px 0 0;
+  margin-block: 0;
+  list-style-type: none;
+}
