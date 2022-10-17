@@ -5,6 +5,11 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
+  margin-left: 50px;
+}
+
+.feedback__text:last-of-type {
+  margin: 0;
 }
 
 .feedback__text:last-of-type {
