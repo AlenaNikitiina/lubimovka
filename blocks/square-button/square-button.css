@@ -3,7 +3,6 @@
   height: 31px;
   position: relative;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 10px;
   padding: 0;
@@ -35,7 +34,7 @@
 
 .square-button:hover::before {
   transform: scaleX(1);
-  
+
   background: #242424;
 }
 

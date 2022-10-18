@@ -1,34 +1,4 @@
 .performance__link {
-  font-family: Formular;
-  font-weight: 300px;
-  font-size: 16px;
-  line-height: 1.2em;
-  color: #242424;
   text-decoration: none;
-  display: block;
-  max-width: 154px;
-  padding: 7px 0;
-  position: relative;
-  border-left: 1px solid #242424;
-  border-bottom: 1px solid #242424;
-}
-
-.performance__link::before{
-  content:"";
-  display: block;
-  border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0.233);
-  width:0px;
-  height:34px;
-  position: absolute;
-  top:0;
-  left:0;
-  transition: all .5s;
-}
-
-.performance__link:hover::before{
-  z-index: 1;
-  display: block;
-  width: 147px;
-  left: 0%;
+  width: 154px;
 }
