@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr 4fr;
   grid-template-areas:
-    "button . ."
+    "button . heading"
     ". . heading"
     ". text image"
     ". . image";

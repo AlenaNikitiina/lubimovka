@@ -1,0 +1,10 @@
+.feedback__icon {
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../media/images/asterisk.svg);
+  background-size: 25px 25px;
+  background-color: transparent;
+  position: absolute;
+  top: -18px;
+  left: -27px;
+}

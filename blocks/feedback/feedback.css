@@ -1,3 +1,7 @@
 .feedback {
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 516px;
+  margin: 100px 222px 0px auto;
 }
