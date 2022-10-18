@@ -1,0 +1,9 @@
+.performance__title_block-one {
+  margin: 0 5% 80px 15%;
+}
+
+@media all and (max-width: 768px) {
+  .performance__title_block-one {
+    margin: 0 0 75px 5%;
+  }
+}
