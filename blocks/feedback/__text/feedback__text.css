@@ -1,17 +1,13 @@
 .feedback__text {
   max-width: 468px;
-  margin: 33px auto 33px 58px;
+  margin: 35px auto 24px 50px;
   padding: 0;
+  font-family: 'Neue Machina', 'Aria', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
-  margin-left: 50px;
 }
 
 .feedback__text:last-of-type {
-  margin: 0;
-}
-
-.feedback__text:last-of-type {
-  margin: 0px auto 0px 58px;
+  margin: 0px auto 0px 50px;
 }
