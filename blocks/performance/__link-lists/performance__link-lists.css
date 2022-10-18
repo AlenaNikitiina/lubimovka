@@ -1,5 +1,6 @@
 .performance__link-lists {
   grid-area: link;
+  align-content: flex-start;
   list-style: none;
   padding: 0;
 }

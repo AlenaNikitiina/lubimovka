@@ -1,18 +1,14 @@
 .performance__container {
   width: 100%;
   max-width: 420px;
-  height: 280px;
   padding: 0 30px;
   border-right: 1px solid #242424;
   display: grid;
-  grid-template-columns: 152px 148px auto;
-  grid-template-rows: 10% 16% 29% 11% 34%;
+  grid-column-gap: 1.875rem;
+  align-content: flex-start;
   grid-template-areas:
-  "img data time"
-  "img title title"
-  "img creators creators"
-  ". description ."
-  ". link .";
+  "img description"
+  "img link";
 }
 
 .performance__container:last-of-type {

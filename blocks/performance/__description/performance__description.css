@@ -1,9 +1,7 @@
 .performance__description {
-  grid-area: description;
   font-family: Formular;
   font-weight: 300px;
   font-size: 14px;
   line-height: 1.2em;
-  max-width: 150px;
   margin: 0;
 }

@@ -29,9 +29,11 @@
 @import url(../blocks/feedback/__text/feedback__text.css);
 
 @import url(../blocks/performance/__wrapper/performance__wrapper.css);
+@import url(../blocks/performance/__wrapper/_block-two/performance__wrapper_block-two.css);
 @import url(../blocks/performance/__wrapper/_block-one/performance__wrapper_block-one.css);
 @import url(../blocks/performance/__title/performance__title.css);
 @import url(../blocks/performance/__title/_block-one/performance__title_block-one.css);
+@import url(../blocks/performance/__block-description/performance__block-description.css);
 @import url(../blocks/performance/__time/performance__time.css);
 @import url(../blocks/performance/__link-lists/performance__link-lists.css);
 @import url(../blocks/performance/__link-list/performance__link-list.css);
