@@ -4,5 +4,13 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 1;
-  margin: 0 0 80px 360px;
+  margin: 0 0 80px 25%;
+}
+
+@media all and (max-width: 768px) {
+  .performance__title {
+    max-width: 366px;
+    font-size: 28px;
+    margin: 0 0 75px 5%;
+  }
 }

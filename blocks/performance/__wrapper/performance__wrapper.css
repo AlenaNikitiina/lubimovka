@@ -1,4 +1,10 @@
 .performance__wrapper {
+  position: relative;
   margin-top: 118px;
 }
 
+@media all and (max-width: 768px) {
+  .performance__wrapper  {
+    margin-top: 80px;
+  }
+}

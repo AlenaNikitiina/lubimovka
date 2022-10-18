@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-@media all and (min-width: 767px) and (max-width: 1388px) {
+@media all and (max-width: 1388px) {
   .performance__containers {
     flex-wrap: wrap;
   }

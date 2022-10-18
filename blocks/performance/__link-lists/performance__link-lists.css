@@ -1,6 +1,14 @@
 .performance__link-lists {
   grid-area: link;
-  align-content: flex-start;
   list-style: none;
   padding: 0;
+  margin: 0;
+}
+
+@media all and (max-width: 768px) {
+  .performance__link-lists {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  }
 }

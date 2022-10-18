@@ -1,7 +1,9 @@
 .performance__time {
-  font-family: Formular;
-  font-weight: 300px;
-  font-size: 20px;
-  line-height: 1.4em;
   margin: 0 36px 0 0;
+}
+
+@media all and (max-width: 768px) {
+  .performance__time {
+
+  }
 }

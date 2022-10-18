@@ -15,8 +15,21 @@
   border-right: none;
 }
 
-@media all and (min-width: 767px) and (max-width: 1388px) {
+@media all  and (max-width: 1388px) {
   .performance__container {
     margin-bottom: 30px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .performance__container {
+    max-width: 369px;
+    border: none;
+    border-bottom: 1px solid #242424;
+    margin-bottom: 35px;
+    padding: 0 24px;
+    grid-template-areas:
+    "img description"
+    "link link";
   }
 }

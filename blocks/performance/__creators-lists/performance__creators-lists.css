@@ -3,3 +3,10 @@
   list-style: none;
   margin: 0 0 20px 0;
 }
+
+@media all and (max-width: 768px) {
+  .performance__creators-lists  {
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+}
