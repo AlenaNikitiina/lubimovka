@@ -1,0 +1,11 @@
+.photo-galary__title {
+  max-width: 568px;
+  max-height: 80px;
+  padding: 0;
+  margin: 0px 510px 42px auto;
+  font-family: 'Neue Machina', 'Aria', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+}

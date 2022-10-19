@@ -1,33 +1,56 @@
-@import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
-
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
+/*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__button/menu__button.css);
 @import url(../blocks/social/social.css);
 @import url(../blocks/social/__item/social__item.css);
-@import url(../blocks/menu/__button/menu__button.css);
 
+/*link*/
 @import url(../blocks/link/link.css);
 
+/*more*/
 @import url(../blocks/more/more.css);
 @import url(../blocks/more/__heading/more__heading.css);
 @import url(../blocks/more/__text/more__text.css);
 @import url(../blocks/more/__image/more__image.css);
 
+/*square-button*/
 @import url(../blocks/square-button/square-button.css);
 @import url(../blocks/square-button/__arrow/sqaure-button__arrow.css);
 @import url(../blocks/square-button/_border_right-bottom/square-button_border_right-bottom.css);
 @import url(../blocks/square-button/_border_left-bottom/square-button_border_left-bottom.css);
 @import url(../blocks/square-button/_place_more/square-button_place_more.css);
 
+/*video*/
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__items/video__items.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__text/video__text.css);
+
+/**/
+@import url(../blocks/content-heading/content-heading.css);
+@import url(../blocks/content-heading/_padding_bottom/content-heading_padding_bottom.css);
+
+/*photo-galary*/
+@import url(../blocks/photo-galary/photo-galary.css);
+@import url(../blocks/photo-galary/__img/photo-galary__img.css);
+@import url(../blocks/photo-galary/__title/photo-galary__title.css);
+@import url(../blocks/photo-galary/__photo/photo-galary__photo.css);
+
+/*feedback*/
 @import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__icon/feedback__icon.css);
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
 
+/*performance*/
 @import url(../blocks/performance/__wrapper/performance__wrapper.css);
 @import url(../blocks/performance/__wrapper/_block-two/performance__wrapper_block-two.css);
 @import url(../blocks/performance/__wrapper/_block-one/performance__wrapper_block-one.css);
@@ -48,3 +71,7 @@
 @import url(../blocks/performance/__container/performance__container.css);
 @import url(../blocks/performance/__container/_block-two/performance__container_block-two.css);
 @import url(../blocks/performance/__afisha-title/performance__afisha-title.css);
+
+@import url(../blocks/feedback/__icon/feedback__icon.css);
+@import url(../blocks/feedback/__underline/feedback__underline.css);
+

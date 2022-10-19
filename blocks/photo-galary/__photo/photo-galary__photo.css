@@ -1,0 +1,10 @@
+.photo-galary__photo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(206px, 359px));
+  grid-template-rows: 1fr 1fr;
+  column-gap: 1px;
+  row-gap: 1px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
