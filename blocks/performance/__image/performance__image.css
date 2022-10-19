@@ -1,0 +1,13 @@
+.performance__image {
+  grid-area: img;
+  width: 120px;
+  height: 162px;
+  object-fit: cover;
+}
+
+@media all and (max-width: 768px) {
+  .performance__image {
+    width: 92px;
+    height: 123px;
+  }
+}

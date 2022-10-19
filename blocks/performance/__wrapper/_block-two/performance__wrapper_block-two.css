@@ -1,0 +1,9 @@
+.performance__wrapper_block-two {
+  margin-top: 126px;
+}
+
+@media all and (max-width: 768px) {
+  .performance__wrapper_block-two {
+    margin-top: 100px;
+  }
+}

@@ -1,8 +1,10 @@
 .page {
   max-width: 1440px;
   min-width: 320px;
-  align-items: center;
   margin: 0 auto;
-  background: #ECEBE8;;
+  background: #ECEBE8;
   color: #242424;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
