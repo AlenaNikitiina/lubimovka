@@ -1,10 +1,8 @@
 .page {
   max-width: 1440px;
   min-width: 320px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  background: #E5E5E5;
+  background: #ECEBE8;;
   color: #242424;
 }

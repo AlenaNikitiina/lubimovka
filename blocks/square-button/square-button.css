@@ -12,7 +12,8 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 14px;
-  background: #E5E5E5;
+  text-transform: uppercase;
+  background: #ECEBE8;
   color: #242424;
   z-index: 2;
   cursor: pointer;
