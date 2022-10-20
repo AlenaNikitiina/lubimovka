@@ -1,5 +1,6 @@
 .photo-galary__img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 359px;
   max-height: 251px;
   object-fit: cover;
 }

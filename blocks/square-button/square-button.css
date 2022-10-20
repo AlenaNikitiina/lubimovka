@@ -3,7 +3,6 @@
   height: 31px;
   position: relative;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 10px;
   padding: 0;
@@ -12,7 +11,8 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 14px;
-  background: #E5E5E5;
+  text-transform: uppercase;
+  background: #ECEBE8;
   color: #242424;
   z-index: 2;
   cursor: pointer;
