@@ -27,6 +27,12 @@
 @import url(../blocks/square-button/_border_left-bottom/square-button_border_left-bottom.css);
 @import url(../blocks/square-button/_place_more/square-button_place_more.css);
 
+/*about*/
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__content/about__content.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__text/about__text.css);
+
 /*video*/
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__container/video__container.css);
