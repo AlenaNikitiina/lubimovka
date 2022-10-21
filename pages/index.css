@@ -29,7 +29,6 @@
 
 /*about*/
 @import url(../blocks/about/about.css);
-@import url(../blocks/about/__content/about__content.css);
 @import url(../blocks/about/__container/about__container.css);
 @import url(../blocks/about/__text/about__text.css);
 
@@ -80,3 +79,11 @@
 @import url(../blocks/performance/__container/_block-two/performance__container_block-two.css);
 @import url(../blocks/performance/__afisha-title/performance__afisha-title.css);
 
+/*persons*/
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__title/persons__title.css);
+@import url(../blocks/persons/__container/persons__container.css);
+@import url(../blocks/persons/__element/persons__element.css);
+@import url(../blocks/persons/__photo/persons__photo.css);
+@import url(../blocks/persons/__name/persons__name.css);
+@import url(../blocks/persons/__occupation/persons__occupation.css);
