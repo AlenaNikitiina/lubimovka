@@ -1,0 +1,7 @@
+.persons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0 0 0;
+}

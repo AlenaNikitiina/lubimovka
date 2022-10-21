@@ -1,0 +1,8 @@
+.persons__container {
+  display: grid;
+  max-width: 930px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+  justify-items: center;
+}
