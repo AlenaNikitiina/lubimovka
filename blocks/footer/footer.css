@@ -1,0 +1,17 @@
+.footer {
+  font-family: 'Formular';
+  width: 100%;
+  padding: 42px 32px 54px;
+  margin-top: 169px;
+
+  display: grid;
+  grid-template-columns: min-content minmax(400px, 570px) minmax(100px, 178px) minmax(100px, 178px) auto;
+  grid-template-rows:  repeat(3, auto);
+  /*column-gap: 82px;
+  row-gap: 22px;*/
+  grid-template-areas:
+  "logo partners partners partners partners"
+  ". address navigation navigation projects"
+  ". copyright copyright author author"
+}
+

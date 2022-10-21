@@ -1,0 +1,7 @@
+.footer__general-partners {
+  grid-area: partners;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 12px ;
+
+}

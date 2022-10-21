@@ -1,0 +1,4 @@
+.footer__navigation {
+  grid-area: navigation;
+  display: flex;
+}
