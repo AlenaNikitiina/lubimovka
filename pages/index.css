@@ -87,3 +87,13 @@
 @import url(../blocks/persons/__photo/persons__photo.css);
 @import url(../blocks/persons/__name/persons__name.css);
 @import url(../blocks/persons/__occupation/persons__occupation.css);
+
+/*show*/
+@import url(../blocks/show/__background/show__background.css);
+@import url(../blocks/show/__block/show__block.css);
+@import url(../blocks/show/__city/show__city.css);
+@import url(../blocks/show/__content/show__content.css);
+@import url(../blocks/show/__name/show__name.css);
+@import url(../blocks/show/__place/show__place.css);
+@import url(../blocks/show/__subtitle/show__subtitle.css);
+@import url(../blocks/show/__title/show__title.css);

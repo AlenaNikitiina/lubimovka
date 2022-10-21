@@ -1,0 +1,8 @@
+.show__title {
+  max-width: 360px;
+  font-family: 'Neue Machina';
+  font-weight: 400;
+  font-size: 40px;
+  color: #242424;
+  margin: 85px 0 24px 25%;
+}
