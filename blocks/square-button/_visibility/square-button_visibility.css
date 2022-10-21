@@ -1,0 +1,9 @@
+.square-button_visibility {
+  opacity: 0;
+  font-size: 16px;
+  transition: .4s;
+}
+
+.square-button_visibility:hover {
+  opacity: 1;
+}

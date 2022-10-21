@@ -1,8 +1,15 @@
 .show__name {
-  max-width: 190px;
+  display: inline;
   font-family: 'Neue Machina';
   font-weight: 400;
   font-size: 20px;
+  line-height: 1.2em;
   color: #242424;
-  margin: 14px 0;
+  transition: .4s;
+}
+
+.show__name:hover {
+  background-color: #242424;
+  color: #fff;
+  border-radius: 2px;
 }
