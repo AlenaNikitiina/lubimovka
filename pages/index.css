@@ -33,6 +33,12 @@
 @import url(../blocks/video/__items/video__items.css);
 @import url(../blocks/video/__item/video__item.css);
 @import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__play-icon/video__play-icon.css);
+@import url(../blocks/video/__play-icon/_hidden/video__play-icon_hidden.css);
+@import url(../blocks/video/__frame/video__frame.css);
+@import url(../blocks/video/__frame/_visible/video__frame_visible.css);
+@import url(../blocks/video/__cover/video__cover.css);
+@import url(../blocks/video/__cover/_hidden/video__cover_hidden.css);
 
 /**/
 @import url(../blocks/content-heading/content-heading.css);

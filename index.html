@@ -221,7 +221,15 @@
     </section>
     <section class="video">
       <h2 class="content-heading content-heading_padding_bottom">Заголовок блока с видео</h2>
-      <video class="video__item" src=""></video>
+      <div class="video__container">
+        <img class="video__cover"
+          src="https://i.ytimg.com/vi/fRt8DZStazw/maxresdefault.jpg"
+          alt="АЛЛЕЛИ. Читка пьесы Ингриды Рагяльскене и Андрюса Даряла"
+        >
+        <button class="video__play-icon" type="button"></button>
+
+      </div>
+      <!-- <video class="video__item" src=""></video> -->
       <p class="video__text">
         Из этого следует два вывода: с одной стороны, искусство не должно быть равно реальности, потому
         что иначе оно не будет искусством, с другой стороны – оно должно быть все-таки подобно реальности, иначе мы ничего не
@@ -235,7 +243,7 @@
         дочувствовали что-то.
       </p>
     </section>
-    <section class="video">
+    <!-- <section class="video">
       <h2 class="content-heading">Заголовок блока с двумя видео</h2>
       <ul class="video__container">
         <li class="video__items">
@@ -259,7 +267,7 @@
           <video class="video__item" src=""></video>
         </li>
       </ul>
-    </section>
+    </section> -->
     <section class="photo-galary">
       <h2 class="photo-galary__title">Заголовок блока с фотографиями</h2>
       <ul class="photo-galary__photo">
@@ -281,6 +289,16 @@
     </section>
   </main>
   <footer class="footer"></footer>
+  <template class="video__template">
+    <iframe class="video__frame"
+      src="https://www.youtube.com/embed/fRt8DZStazw?autoplay=1&mute=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+  </template>
   <script src="./pages/index.js"></script>
 </body>
 </html>
