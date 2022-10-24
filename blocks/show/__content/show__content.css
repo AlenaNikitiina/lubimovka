@@ -1,6 +1,16 @@
 .show__content {
-display: flex;
-justify-content: center;
-gap: 30px;
-flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 24px;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 768px) {
+  .show__content {
+    width: 1320px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+  }
 }

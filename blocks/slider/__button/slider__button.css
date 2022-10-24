@@ -1,0 +1,39 @@
+.slider__button {
+  width: fit-content;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  font-size: 28px;
+  background: transparent;
+  color: #242424;
+  z-index: 2;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.slider__button:hover {
+  color: white;
+}
+
+.slider__button::before{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  border-radius: 50%;
+  content: '';
+  transition: transform .4s, background .5s;
+  z-index: -1;
+}
+
+.slider__button:hover::before {
+  transform: scaleX(1);
+  background: #242424;
+}
+
+.slider__button:hover:active {
+  transform: scale(1.2);
+}
+

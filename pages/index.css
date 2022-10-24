@@ -92,6 +92,7 @@
 /*show*/
 @import url(../blocks/show/__background/show__background.css);
 @import url(../blocks/show/__block/show__block.css);
+@import url(../blocks/show/__buttons/show__buttons.css);
 @import url(../blocks/show/__city/show__city.css);
 @import url(../blocks/show/__content/show__content.css);
 @import url(../blocks/show/__links/show__links.css);
@@ -103,3 +104,8 @@
 @import url(../blocks/show/__place/show__place.css);
 @import url(../blocks/show/__subtitle/show__subtitle.css);
 @import url(../blocks/show/__title/show__title.css);
+
+/*slider*/
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_left/slider__button_left.css);
+@import url(../blocks/slider/__button/_right/slider__button_right.css);

@@ -7,3 +7,10 @@
 .square-button_visibility:hover {
   opacity: 1;
 }
+
+
+@media all and (max-width: 768px) {
+  .square-button_visibility {
+    opacity: 1;
+  }
+}
