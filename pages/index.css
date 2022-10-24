@@ -43,6 +43,7 @@
 @import url(../blocks/photo-galary/__img/photo-galary__img.css);
 @import url(../blocks/photo-galary/__title/photo-galary__title.css);
 @import url(../blocks/photo-galary/__photo/photo-galary__photo.css);
+@import url(../blocks/photo-galary/__list/photo-galary__list.css);
 
 /*feedback*/
 @import url(../blocks/feedback/feedback.css);
