@@ -1,0 +1,6 @@
+.show__link-name {
+  display: block;
+  max-width: 190px;
+  text-decoration: none;
+  padding: 7px 0;
+}

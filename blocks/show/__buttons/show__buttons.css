@@ -1,0 +1,14 @@
+.show__buttons {
+  visibility: hidden;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 24px;
+  bottom: 290px;
+}
+
+@media all and (max-width: 768px) {
+  .show__buttons {
+    visibility: visible;
+  }
+}

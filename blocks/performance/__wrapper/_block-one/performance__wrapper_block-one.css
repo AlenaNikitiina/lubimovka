@@ -3,7 +3,7 @@
   display: flex;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 900px) {
   .performance__wrapper_block-one {
     margin-top: 80px;
     flex-direction: column;
