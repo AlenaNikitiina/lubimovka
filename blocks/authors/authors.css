@@ -1,0 +1,15 @@
+.authors {
+  display: flex;
+  grid-area: author;
+  max-width: 389px;
+}
+
+@media all and (max-width:630px) {
+  .authors {
+    max-width: 255px;
+    flex-wrap: wrap; padding: 0 0 0 27px;
+   
+  }
+}
+
+

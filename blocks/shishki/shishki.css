@@ -1,0 +1,12 @@
+.shishki {
+  display: flex;
+  max-width: 175px;
+  margin-right: 32px;
+}
+
+@media all and (max-width:630px) {
+  .shishki {
+    margin: 0 0 16px;
+    
+  }
+}

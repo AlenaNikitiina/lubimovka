@@ -1,0 +1,11 @@
+.footer__projects {
+  grid-area: projects;
+  padding-bottom: 34px;
+}
+
+@media all and (max-width:570px) {
+  .footer__projects {
+     padding: 0 0 84px 56px;
+  }
+}
+

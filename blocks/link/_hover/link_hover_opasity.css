@@ -1,0 +1,9 @@
+.link_hover_opasity {
+    cursor: pointer;
+    mix-blend-mode: multiply;
+}
+
+.link_hover_opasity:hover {
+        opacity: 0.2;
+        transition: 0.2s;
+}

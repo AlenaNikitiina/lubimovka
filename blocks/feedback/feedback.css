@@ -4,4 +4,27 @@
   position: relative;
   max-width: 516px;
   margin: 100px 0 0 48%;
+  border: 1px solid red;
+}
+
+
+@media all and (max-width: 1024px) {
+  .feedback {
+    max-width: 433px;
+    margin: 100px 0 0 25%;
+    width: calc(1024px - 2 * 24px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .feedback {
+    width: calc(768px - 2 * 14px);
+  }
+}
+
+@media all and (max-width: 425px) {
+  .feedback {
+    max-width: 333px;
+    margin: 76px 24px 0px 55px;
+  }
 }

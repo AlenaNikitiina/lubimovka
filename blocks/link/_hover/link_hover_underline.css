@@ -1,0 +1,9 @@
+.link_hover_underline::after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px #242424;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  transform-origin:  0% 50%;
+}
+.link_hover_underline:hover:after { transform: scaleX(1); }

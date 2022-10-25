@@ -7,5 +7,19 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 1.05;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
+}
+
+@media all and (max-width: 1024px) {
+  .feedback__title {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .feedback__title {
+    max-width: 335px;
+    font-size: 28px;
+    line-height: 1.1;
+  }
 }

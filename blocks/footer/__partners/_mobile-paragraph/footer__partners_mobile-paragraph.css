@@ -1,0 +1,9 @@
+.footer__partners_mobile-paragraph {
+    display: none;
+  }
+  @media all and (max-width:850px) {
+    .footer__partners_mobile-paragraph {
+      display: block;
+    }
+  }
+  
