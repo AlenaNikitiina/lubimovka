@@ -1,3 +1,9 @@
 .photo-galary {
   margin: 145px 0 0 0;
 }
+
+@media all and (max-width: 425px) {
+  .photo-galary {
+    margin: 100px 0 0 0;
+  }
+}

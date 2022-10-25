@@ -1,14 +1,36 @@
 .feedback__text {
-  max-width: 468px;
+  max-width: 447px;
   margin: 35px auto 24px 50px;
   padding: 0;
   font-family: 'Neue Machina', 'Aria', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.2;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 .feedback__text:last-of-type {
   margin: 0px auto 0px 50px;
+  letter-spacing: -0.5px;
+}
+
+
+@media all and (max-width: 1024px) {
+  .feedback__text {
+    margin: 16px 0px 24px 0px ;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .feedback__text {
+    max-width: 333px;
+    margin: 18px 0px 24px 0px ;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .feedback__text:last-of-type {
+    max-width: 333px;
+    margin: 0;
+  }
 }
