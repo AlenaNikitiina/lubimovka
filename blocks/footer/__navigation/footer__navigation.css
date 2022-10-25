@@ -1,4 +1,6 @@
 .footer__navigation {
   grid-area: navigation;
   display: flex;
+  max-width: 280px;
+  justify-content: space-between;
 }
