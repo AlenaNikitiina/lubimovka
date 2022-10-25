@@ -1,0 +1,5 @@
+.footer__logo {
+  grid-area: logo;
+  padding-right: 82px;
+  padding-bottom: 21px;
+}

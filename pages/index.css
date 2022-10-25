@@ -13,6 +13,8 @@
 
 /*link*/
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/_hover/link_hover_underline.css);
+@import url(../blocks/link/_hover/link_hover_opasity.css);
 
 /*more*/
 @import url(../blocks/more/more.css);
@@ -55,7 +57,6 @@
 @import url(../blocks/feedback/__icon/feedback__icon.css);
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
-@import url(../blocks/feedback/__icon/feedback__icon.css);
 @import url(../blocks/feedback/__underline/feedback__underline.css);
 
 /*performance*/
@@ -88,6 +89,33 @@
 @import url(../blocks/persons/__photo/persons__photo.css);
 @import url(../blocks/persons/__name/persons__name.css);
 @import url(../blocks/persons/__occupation/persons__occupation.css);
+
+/*address*/
+@import url(../blocks/address/address.css);
+/*paragraph*/
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/paragraph/_copyright/paragraph_copyright.css);
+/*link-list*/
+@import url(../blocks/link-list/link-list.css);
+@import url(../blocks/link-list/__item/link-list__item.css);
+/*partner-logo*/
+@import url(../blocks/partner-logo/partner-logo.css);
+/*authors*/
+@import url(../blocks/authors/authors.css);
+/*shishki*/
+@import url(../blocks/shishki/shishki.css);
+@import url(../blocks/shishki/__logo/shishki__logo.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__general-partners/footer__general-partners.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__projects/footer__projects.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
 
 /*show*/
 @import url(../blocks/show/__background/show__background.css);

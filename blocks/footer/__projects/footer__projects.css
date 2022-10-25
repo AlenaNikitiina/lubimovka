@@ -1,0 +1,4 @@
+.footer__projects {
+  grid-area: projects;
+  padding-bottom: 34px;
+}

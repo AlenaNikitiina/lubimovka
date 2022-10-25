@@ -1,0 +1,6 @@
+.authors {
+  display: flex;
+  grid-area: author;
+  max-width: 389px;
+
+}
