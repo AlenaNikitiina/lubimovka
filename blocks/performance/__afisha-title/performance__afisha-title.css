@@ -1,0 +1,14 @@
+.performance__afisha-title {
+  font-family: Neue Machina;
+  font-weight: 400px;
+  font-size: 36px;
+  line-height: 1.2em;
+  margin: 0 0 18px 0;
+}
+
+@media all and (max-width: 768px) {
+  .performance__afisha-title {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+}

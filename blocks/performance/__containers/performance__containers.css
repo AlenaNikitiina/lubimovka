@@ -1,0 +1,10 @@
+.performance__containers {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 1388px) {
+  .performance__containers {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,7 @@
+.show__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  background-color: #B7C09D;
+}

@@ -1,0 +1,12 @@
+.performance__description {
+  font-family: Formular;
+  font-weight: 300px;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+@media all and (max-width: 768px) {
+  .performance__description {
+    margin-bottom: 30px;
+  }
+}
