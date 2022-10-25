@@ -27,6 +27,7 @@
 @import url(../blocks/square-button/__arrow/sqaure-button__arrow.css);
 @import url(../blocks/square-button/_border_right-bottom/square-button_border_right-bottom.css);
 @import url(../blocks/square-button/_border_left-bottom/square-button_border_left-bottom.css);
+@import url(../blocks/square-button/_visibility/square-button_visibility.css);
 @import url(../blocks/square-button/_place_more/square-button_place_more.css);
 
 /*about*/
@@ -127,3 +128,23 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 
+/*show*/
+@import url(../blocks/show/__background/show__background.css);
+@import url(../blocks/show/__block/show__block.css);
+@import url(../blocks/show/__buttons/show__buttons.css);
+@import url(../blocks/show/__city/show__city.css);
+@import url(../blocks/show/__content/show__content.css);
+@import url(../blocks/show/__links/show__links.css);
+@import url(../blocks/show/__arrow/show__arrow.css);
+@import url(../blocks/show/__link-about/show__link-about.css);
+@import url(../blocks/show/__link-download/show__link-download.css);
+@import url(../blocks/show/__name/show__name.css);
+@import url(../blocks/show/__link-name/show__link-name.css);
+@import url(../blocks/show/__place/show__place.css);
+@import url(../blocks/show/__subtitle/show__subtitle.css);
+@import url(../blocks/show/__title/show__title.css);
+
+/*slider*/
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_left/slider__button_left.css);
+@import url(../blocks/slider/__button/_right/slider__button_right.css);

@@ -1,0 +1,7 @@
+.slider__button_right {
+  border-right: 1px solid #242424;
+}
+
+.slider__button_right:hover {
+  border-bottom: 1px solid #242424;
+}
