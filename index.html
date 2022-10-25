@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Lubimovka</title>
 </head>
+
 <body class="page">
 
   <header class="header">
@@ -34,9 +36,8 @@
 
   <main>
     <section class="more">
-      <button
-        class="square-button square-button_border_right-bottom square-button_place_more">
-          проекты
+      <button class="square-button square-button_border_right-bottom square-button_place_more">
+        проекты
         <span class="sqaure-button__arrow">
           &#8592;
         </span>
@@ -46,11 +47,20 @@
       <div class="more__image"></div>
     </section>
 
+    <section class="about">
+      <div class="about__container">
+        <h2 class="content-heading">О проекте</h2>
+        <p class="about__text">За первый сезон проекта организаторы провели 17 мероприятий вместе с режиссёрами и
+          актёрами московских театров: Театра.doc, Театрального Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра
+          «Станиславский», Ленкома.</p>
+      </div>
+    </section>
+
     <section class="performance">
       <div class="performance__wrapper">
         <h2 class="performance__title">Заголовок блока с&nbsp;тремя и&nbsp;более спектаклями</h2>
         <div class="performance__containers">
-          <div class="performance__container">
+          <article class="performance__container">
             <img class="performance__image" alt="афиша" src="./media/images/afisha_1.jpg" />
             <div class="performance__block-description">
               <time class="performance__data"><span class="performance__time">15 декабря</span>
@@ -74,9 +84,9 @@
                     class="performance__arrow">
                     &#10230;
                   </span>БИЛЕТЫ</a></li>
-                </ul>
-          </div>
-          <div class="performance__container">
+            </ul>
+          </article>
+          <article class="performance__container">
             <img class="performance__image" alt="афиша" src="./media/images/afisha_2.jpg" />
             <div class="performance__block-description">
               <time class="performance__data"><span class="performance__time">15 декабря</span>
@@ -100,9 +110,9 @@
                     class="performance__arrow">
                     &#10230;
                   </span>БИЛЕТЫ</a></li>
-                </ul>
-          </div>
-          <div class="performance__container">
+            </ul>
+          </article>
+          <article class="performance__container">
             <img class="performance__image" alt="афиша" src="./media/images/afisha_1.jpg" />
             <div class="performance__block-description">
               <time class="performance__data"><span class="performance__time">15 декабря</span>
@@ -126,14 +136,14 @@
                     class="performance__arrow">
                     &#10230;
                   </span>БИЛЕТЫ</a></li>
-                </ul>
-          </div>
+            </ul>
+          </article>
         </div>
       </div>
       <div class="performance__wrapper performance__wrapper_block-two">
         <h2 class="performance__title">Заголовок блока<br>с двумя спектаклями</h2>
         <div class="performance__containers">
-          <div class="performance__container performance__container_block-two">
+          <article class="performance__container performance__container_block-two">
             <img class="performance__image" alt="афиша" src="./media/images/afisha_1.jpg" />
             <div class="performance__block-description">
               <time class="performance__data"><span class="performance__time">15 декабря</span>
@@ -157,9 +167,9 @@
                     class="performance__arrow">
                     &#10230;
                   </span>БИЛЕТЫ</a></li>
-                </ul>
-          </div>
-          <div class="performance__container performance__container_block-two">
+            </ul>
+          </article>
+          <article class="performance__container performance__container_block-two">
             <img class="performance__image" alt="афиша" src="./media/images/afisha_2.jpg" />
             <div class="performance__block-description">
               <time class="performance__data"><span class="performance__time">15 декабря</span>
@@ -183,14 +193,14 @@
                     class="performance__arrow">
                     &#10230;
                   </span>БИЛЕТЫ</a></li>
-                </ul>
-          </div>
+            </ul>
+          </article>
         </div>
       </div>
       <div class="performance__wrapper performance__wrapper_block-one">
         <h2 class="performance__title performance__title_block-one">Заголовок блока<br>с одним спектаклем</h2>
         <div class="performance__containers">
-          <div class="performance__container">
+          <article class="performance__container">
             <img class="performance__image" alt="афиша" src="./media/images/afisha_2.jpg" />
             <div class="performance__block-description">
               <time class="performance__data"><span class="performance__time">15 декабря</span>
@@ -214,17 +224,119 @@
                     class="performance__arrow">
                     &#10230;
                   </span>БИЛЕТЫ</a></li>
-                </ul>
-          </div>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
+
+    <section class="show">
+      <h2 class="show__title">Заголовок блока с пьесами</h2>
+      <div class="show__content">
+        <article class="show__block">
+          <div class="show__background">
+            <h3 class="show__subtitle">Солнечная<br>линия</h3>
+            <div class="show__links">
+              <a class="show__link-about square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СМОТРЕТЬ ЧИТКУ<span class="show__arrow">&#8599;</span></a>
+              <a class="show__link-download square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СКАЧАТЬ ПЬЕСУ<span class="show__arrow">&#8595;</span></a>
+            </div>
+          </div>
+          <a class="show__link-name" href="#">
+            <h3 class="show__name">Екатерина Августеняк</h3>
+          </a>
+          <div class="show__place">
+            <p class="show__city">Санкт-Петербург</p>
+            <span>2020</span>
+          </div>
+        </article>
+        <article class="show__block">
+          <div class="show__background">
+            <h3 class="show__subtitle">МАМА</h3>
+            <div class="show__links">
+              <a class="show__link-about square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СМОТРЕТЬ ЧИТКУ<span class="show__arrow">&#8599;</span></a>
+              <a class="show__link-download square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СКАЧАТЬ ПЬЕСУ<span class="show__arrow">&#8595;</span></a>
+            </div>
+          </div>
+          <a class="show__link-name" href="#">
+            <h3 class="show__name">Екатерина Августеняк</h3>
+          </a>
+          <div class="show__place">
+            <p class="show__city">Санкт-Петербург</p>
+            <span>2020</span>
+          </div>
+        </article>
+        <article class="show__block">
+          <div class="show__background">
+            <h3 class="show__subtitle">Конкретные разговоры пожилых супругов ни о чём</h3>
+            <div class="show__links">
+              <a class="show__link-about square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СМОТРЕТЬ ЧИТКУ<span class="show__arrow">&#8599;</span></a>
+              <a class="show__link-download square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СКАЧАТЬ ПЬЕСУ<span class="show__arrow">&#8595;</span></a>
+            </div>
+          </div>
+          <a class="show__link-name" href="#">
+            <h3 class="show__name">Екатерина Августеняк</h3>
+          </a>
+          <div class="show__place">
+            <p class="show__city">Санкт-Петербург</p>
+            <span>2020</span>
+          </div>
+        </article>
+        <article class="show__block">
+          <div class="show__background">
+            <h3 class="show__subtitle">Опус ДНК</h3>
+            <div class="show__links">
+              <a class="show__link-about square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СМОТРЕТЬ ЧИТКУ<span class="show__arrow">&#8599;</span></a>
+              <a class="show__link-download square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СКАЧАТЬ ПЬЕСУ<span class="show__arrow">&#8595;</span></a>
+            </div>
+          </div>
+          <a class="show__link-name" href="#">
+            <h3 class="show__name">Екатерина Августеняк</h3>
+          </a>
+          <div class="show__place">
+            <p class="show__city">Санкт-Петербург</p>
+            <span>2020</span>
+          </div>
+        </article>
+        <article class="show__block">
+          <div class="show__background">
+            <h3 class="show__subtitle">МАМА</h3>
+            <div class="show__links">
+              <a class="show__link-about square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СМОТРЕТЬ ЧИТКУ<span class="show__arrow">&#8599;</span></a>
+              <a class="show__link-download square-button square-button_border_left-bottom square-button_visibility"
+                href="#">СКАЧАТЬ ПЬЕСУ<span class="show__arrow">&#8595;</span></a>
+            </div>
+          </div>
+          <a class="show__link-name" href="#">
+            <h3 class="show__name">Екатерина Августеняк</h3>
+          </a>
+          <div class="show__place">
+            <p class="show__city">Санкт-Петербург</p>
+            <span>2020</span>
+          </div>
+        </article>
+      </div>
+      <div class="show__buttons">
+        <button class="show__prev slider__button slider__button_left">&larr;</button>
+        <button class="show__next slider__button slider__button_right">&rarr;</button>
+      </div>
+    </section>
+
     <section class="video">
       <h2 class="content-heading content-heading_padding_bottom">Заголовок блока с видео</h2>
       <video class="video__item" src=""></video>
       <p class="video__text">
         Из этого следует два вывода: с одной стороны, искусство не должно быть равно реальности, потому
-        что иначе оно не будет искусством, с другой стороны – оно должно быть все-таки подобно реальности, иначе мы ничего не
+        что иначе оно не будет искусством, с другой стороны – оно должно быть все-таки подобно реальности, иначе мы
+        ничего не
         поймем,
         не подключимся и не распознаем замыслы автора. Мне нравится такое определение, что один из видов эстетики – это,
         грубо говоря, "понимание" чего-то. Если нам нечего понимать, то мы не получим ни удовольствия, ни какого-то
@@ -266,17 +378,48 @@
         <li><img src="./media/images/two_people.jpg" alt="два человека на сцене"></li>
         <li><img src="./media/images/woman_sitting.jpg" class="photo-galary__img" alt="женщина чидя читает"></li>
         <li><img src="./media/images/man_sitting.jpg" class="photo-galary__img" alt="мужчина на сцене"></li>
-        <li><img src="./media/images/group_of_people.jpg" class="photo-galary__img" alt="группа людей с микрофонами"></li>
+        <li><img src="./media/images/group_of_people.jpg" class="photo-galary__img" alt="группа людей с микрофонами">
+        </li>
         <li><img src="./media/images/auditorium.jpg" class="photo-galary__img" alt="зрительный зал"></li>
-        <li><img src="./media/images/girl_photographed_close_up.jpg" class="photo-galary__img" alt="девушка крупным планом"></li>
+        <li><img src="./media/images/girl_photographed_close_up.jpg" class="photo-galary__img"
+            alt="девушка крупным планом"></li>
         <li><img src="./media/images/man_with_microphone.jpg" class="photo-galary__img" alt="мужчина с микрофоном"></li>
         <li><img src="./media/images/girl_close_up.jpg" class="photo-galary__img" alt="девушка крупным планом"></li>
       </ul>
     </section>
+    <section class="persons">
+      <h2 class="persons__title">Заголовок блока с&nbsp;персонами</h2>
+      <div class="persons__container">
+        <div class="persons__element">
+          <img class="persons__photo" src="./media/images/persons_1.jpg" alt="Тереза Шимчак" />
+          <h3 class="persons__name">Тереза Шимчак</h3>
+          <p class="persons__occupation">Драматург, сценарист, преподаватель</p>
+        </div>
+
+        <div class="persons__element">
+          <img class="persons__photo" src="./media/images/persons_2.jpg" alt="Тереза Шимчак" />
+          <h3 class="persons__name">Тереза Шимчак</h3>
+          <p class="persons__occupation">Драматург, сценарист, преподаватель</p>
+        </div>
+
+        <div class="persons__element">
+          <img class="persons__photo" src="./media/images/persons_3.jpg" alt="Тереза Шимчак" />
+          <h3 class="persons__name">Тереза Шимчак</h3>
+          <p class="persons__occupation">Драматург, сценарист, преподаватель</p>
+        </div>
+
+        <div class="persons__element">
+          <img class="persons__photo" src="./media/images/persons_1.jpg" alt="Тереза Шимчак" />
+          <h3 class="persons__name">Тереза Шимчак</h3>
+          <p class="persons__occupation">Драматург, сценарист, преподаватель</p>
+        </div>
+      </div>
+    </section>
     <section class="feedback">
       <div class="feedback__icon"></div>
       <h2 class="feedback__title">Проект открыт к&nbsp;сотрудничеству</h2>
-      <p class="feedback__text">Мы находимся в постоянном поиске режиссёров и актеров, заинтересованных в постановке читок.</p>
+      <p class="feedback__text">Мы находимся в постоянном поиске режиссёров и актеров, заинтересованных в постановке
+        читок.</p>
       <p class="feedback__text">Пишите на <a><span class="feedback__underline">more@lubimovka.ru</span></a></p>
     </section>
   </main>
@@ -291,4 +434,5 @@
 
   <script src="./scripts/index.js"></script>
 </body>
+
 </html>
