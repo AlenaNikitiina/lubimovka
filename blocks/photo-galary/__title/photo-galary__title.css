@@ -9,3 +9,11 @@
   line-height: 1;
   letter-spacing: -1px;
 }
+
+@media all and (max-width: 768px) {
+  .photo-galary__title {
+    font-size: 28px;
+    line-height: 1.1;
+    margin: 0 21px 22px 24px;
+  }
+}
