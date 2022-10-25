@@ -42,7 +42,7 @@
 @import url(../blocks/video/__item/video__item.css);
 @import url(../blocks/video/__text/video__text.css);
 
-/**/
+/*content-heading*/
 @import url(../blocks/content-heading/content-heading.css);
 @import url(../blocks/content-heading/_padding_bottom/content-heading_padding_bottom.css);
 
@@ -135,7 +135,6 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__projects/footer__projects.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
 
 /*show*/
 @import url(../blocks/show/__background/show__background.css);
