@@ -5,4 +5,13 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
+  margin-right: 30px;
+}
+
+@media all and (max-width:570px) {
+  .link-list {
+    font-size: 18px;
+    line-height: 1.28;
+    margin: 0;
+  }
 }

@@ -1,0 +1,7 @@
+@media all and (max-width:850px) {
+    .general-partners__a-pogovorit {
+      grid-area: a-pogovorit;
+      padding-top: 13px;
+  
+    }
+  }

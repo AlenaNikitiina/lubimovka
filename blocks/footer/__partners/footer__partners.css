@@ -5,3 +5,10 @@
   max-width: 145px;
   margin: 0;
 }
+
+@media all and (max-width:570px) {
+  .footer__partners {
+    line-height: 1.43;
+    max-width: 100%;
+  }
+}

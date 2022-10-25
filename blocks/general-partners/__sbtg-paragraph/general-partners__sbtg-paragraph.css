@@ -1,0 +1,6 @@
+
+@media all and (max-width:850px) {
+    .general-partners__sbtg-paragraph {
+      grid-area: sbtg-paragraph;
+    }
+  }

@@ -2,6 +2,27 @@
   grid-area: partners;
   display: flex;
   align-items: flex-start;
-  padding-top: 12px ;
+  padding-top: 12px;
 
 }
+
+@media all and (max-width:850px) {
+  .footer__general-partners {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 182px 182px;
+    grid-template-rows:  62px 62px 62px 62px;
+
+    justify-items: center;
+    align-items: start;
+    padding: 0 56px 45px 56px;
+    border-bottom: 1px solid #242424;
+    grid-template-areas:
+    "fmp mosbrew"
+    "fmp-paragraph mosbrew"
+    "sbtg a-pogovorit"
+    "sbtg-paragraph a-pogovorit"
+  }
+}
+
+

@@ -2,3 +2,9 @@
   width: 27px;
   height: 25px;
 }
+
+@media all and (max-width:570px) {
+  .shishki__logo {
+    padding-right: 9px
+  }
+ }

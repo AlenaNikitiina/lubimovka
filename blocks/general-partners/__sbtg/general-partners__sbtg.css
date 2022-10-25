@@ -1,0 +1,8 @@
+
+@media all and (max-width:850px) {
+    .general-partners__sbtg {
+      grid-area: sbtg;
+    
+    }
+  
+  }
