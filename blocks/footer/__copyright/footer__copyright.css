@@ -1,4 +1,17 @@
 .footer__copyright {
   grid-area: copyright;
   display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__copyright {
+  }
+}
+
+@media all and (max-width:570px) {
+  .footer__copyright {
+    max-width: 255px;
+ padding: 32px 0 49px 27px;
+  }
 }

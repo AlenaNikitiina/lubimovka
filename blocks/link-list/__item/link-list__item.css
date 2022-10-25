@@ -2,3 +2,9 @@
   padding-bottom: 15px;
   width: max-content;
 }
+
+@media all and (max-width:570px) {
+  .link-list__item {
+    padding-bottom: 13px;
+  }
+}

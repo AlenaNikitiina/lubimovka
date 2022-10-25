@@ -1,3 +1,9 @@
 .paragraph_copyright {
   margin-right: 32px;
 }
+
+@media all and (max-width:570px) {
+  .paragraph_copyright {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,7 @@
+@media all and (max-width:850px) {
+    .general-partners__mosbrew {
+      grid-area: mosbrew;
+      padding-top: 13px;
+      
+    }
+  }

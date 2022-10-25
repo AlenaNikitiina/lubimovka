@@ -94,6 +94,7 @@
 /*paragraph*/
 @import url(../blocks/paragraph/paragraph.css);
 @import url(../blocks/paragraph/_copyright/paragraph_copyright.css);
+@import url(../blocks/paragraph/__address/paragraph__address.css);
 /*link-list*/
 @import url(../blocks/link-list/link-list.css);
 @import url(../blocks/link-list/__item/link-list__item.css);
@@ -105,9 +106,19 @@
 @import url(../blocks/shishki/shishki.css);
 @import url(../blocks/shishki/__logo/shishki__logo.css);
 
+/*general-partners*/
+@import url(../blocks/general-partners/__fmp/general-partners__fmp.css);
+@import url(../blocks/general-partners/__fmp-paragraph/general-partners__fmp-paragraph.css);
+@import url(../blocks/general-partners/__sbtg/general-partners__sbtg.css);
+@import url(../blocks/general-partners/__sbtg-paragraph/general-partners__sbtg-paragraph.css);
+@import url(../blocks/general-partners/__mosbrew/general-partners__mosbrew.css);
+@import url(../blocks/general-partners/__a-pogovorit/general-partners__a-pogovorit.css);
+
 /*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__partners/_desktop-paragraph/footer__partners_desktop-paragraph.css);
+@import url(../blocks/footer/__partners/_mobile-paragraph/footer__partners_mobile-paragraph.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__general-partners/footer__general-partners.css);
 @import url(../blocks/footer/__address/footer__address.css);
