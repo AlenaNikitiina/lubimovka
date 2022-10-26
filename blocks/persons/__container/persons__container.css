@@ -6,3 +6,13 @@
   align-items: center;
   justify-items: center;
 }
+
+@media all and (max-width: 1024px) {
+  .persons__container {
+    width: 930px;
+    position: relative;
+    left: 0;
+    align-self: start;
+    transition: all ease 1s;
+  }
+}
