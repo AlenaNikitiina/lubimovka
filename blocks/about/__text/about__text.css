@@ -10,3 +10,10 @@
   padding: 0;
   max-width: 509px;
 }
+
+@media screen and (max-width: 768px) {
+  .about__text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

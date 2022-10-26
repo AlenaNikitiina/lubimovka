@@ -1,0 +1,9 @@
+.about__title {
+  max-width: 568px;
+  font-family: 'Neue Machina', 'Aria', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
