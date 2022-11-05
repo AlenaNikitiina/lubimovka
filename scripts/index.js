@@ -3,8 +3,6 @@ const popupZoom = document.querySelector('.popup_zoom'); // второй кла�
 const popupCloseButton = document.querySelectorAll('.popup__close-button'); // кнопка закрыть попап, крестик
 const popupImage = document.querySelector('.popup__img'); // нашли фото из попапа
 
-
-
 //кнопка бургерного меню и само меню
 const menuButton = document.querySelector(".burger");
 const menu = document.querySelector(".header");
