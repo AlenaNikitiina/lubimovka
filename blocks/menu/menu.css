@@ -7,5 +7,20 @@
     padding: 12px 29px 17px 0;
     margin: 10px 0 0;
     border-right: 1px solid #242424;
-    
+}
+
+@media screen and (max-width: 1439px) {
+  .menu {
+    padding: 0.8vw 1.3vw 1.13vw 0;
+    font-size: 1.13vw;
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .menu {
+    display: block;
+    padding: 20px 0 20px 10px;
+    font-size: 16px;
+    border-right: 0;
+}
 }

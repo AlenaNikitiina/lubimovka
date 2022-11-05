@@ -7,3 +7,18 @@
     margin: 10px 0 0;
     border-right: 1px solid #242424;
 }
+
+@media screen and (max-width: 1439px) {
+  .social {
+    padding: 0.7vw 1.3vw 1.3vw 1.3vw;
+    font-size: 1.13vw;
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .social {
+    display: block;
+    font-size: 16px;
+    border-right: 0;
+}
+}
