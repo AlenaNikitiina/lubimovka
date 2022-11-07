@@ -3,6 +3,21 @@ const popupZoom = document.querySelector('.popup_zoom'); // второй кла�
 const popupCloseButton = document.querySelectorAll('.popup__close-button'); // кнопка закрыть попап, крестик
 const popupImage = document.querySelector('.popup__img'); // нашли фото из попапа
 
+//кнопка бургерного меню и само меню
+const menuButton = document.querySelector(".burger");
+const menu = document.querySelector(".header");
+//функция, открывающая менюшку
+function openMenu() {
+  menu.classList.toggle("menu_open");
+};
+
+//функция, меняющая вид кнопки
+function toggleMenuButton() {
+  menuButton.classList.toggle("burger_active");
+};
+menuButton.addEventListener("click", openMenu, false);
+menuButton.addEventListener("click", toggleMenuButton, false);
+
 
 
 // функция открытия попапа
@@ -19,7 +34,6 @@ function closePopup (item) {
 
 popup.addEventListener('click', openPopup())
 
-/*
 popupZoom.addEventListener('click', function (evt) {
   //const a = document.querySelector('.element__foto');
   openPopup(popupZoom)
@@ -27,7 +41,6 @@ popupZoom.addEventListener('click', function (evt) {
 
 
 
-/*
 // функция закрытия попапов по нажатию на Escape
 const closeByEscape = (evt) => {
   if (evt.key === 'Escape') {
@@ -36,7 +49,7 @@ const closeByEscape = (evt) => {
   }
 }
 
-/*
+
 // закрыть попапы нажав на оверлей или крестик
 popup.forEach((item) => {
   item.addEventListener('mousedown', (evt) => {
@@ -46,7 +59,7 @@ popup.forEach((item) => {
   })
 })
 
-*/
+
 
 //слайдер
 let offfset = 0;

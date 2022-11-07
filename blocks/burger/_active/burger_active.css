@@ -1,0 +1,4 @@
+.burger_active {
+  background-image: url(../../../media/images/Close-Icon.svg);
+  background-size: 20px;
+}

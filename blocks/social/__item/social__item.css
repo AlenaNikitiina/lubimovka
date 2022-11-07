@@ -7,3 +7,19 @@
     margin-left: 0;
 }
 
+@media screen and (max-width: 1439px) {
+  .social__item {
+    margin-left: 1.13vw
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .social__item {
+    margin-left: 10px;
+    padding-top: 8px;
+}
+  .social__item:first-of-type {
+    margin-left: 10px;
+
+}
+}
